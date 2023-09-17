@@ -1,0 +1,103 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('training-828726_1280.jpg');
+    background-size: cover;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left>img{
+    width: 60px;
+    filter: invert(100%);  
+    margin-left: 42px;
+}
+.left>div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 23px;
+}
+.mid{
+    /* border: 2px solid green; */
+    width: 41%;
+    margin: 20px auto;
+    display: block;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar>li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar>li>a:hover, .navbar>li>a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+}
+.container{
+    /* border: 2px solid white; */
+    margin: 147px 466px;
+    padding: 18px 35px;
+    width: 33% ;
+    border-radius: 14px;
+}
+.container>h1{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-group>input{
+    text-align: center;
+    display: block;
+    width: 380px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 16px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn2{
+    background: black;
+    color: white;
+    display: block;
+    width: 60%;
+    margin: 24px auto;
+    padding: 6px;
+    border-radius: 12px;
+}
+.btn2:hover{
+    background-color: rgb(31, 30, 30);
+}
